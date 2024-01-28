@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+    
+    <title>Frontend Mentor | Age calculator app</title>
+  
+</head>
+
+
+<body>
+
+ <section class="wrapper">
+    <form method="post" id="form"  novalidate>
+  <div class="input-container">
+        <div class="item">
+         <label for="day" class="form-label">DAY</label>
+         <input type="text" class="form-element" pattern="^(0[1-9]|[12][0-9]|3[01])$" title="Day (01-31)" id="day" name="day" placeholder="DD" required > 
+         <span class="error-text one"></span>
+        </div>
+
+        <div class="item">
+          <label for="month" class="form-label" >MONTH</label>
+           <input type="text" class="form-element" pattern="^(0[1-9]|1[0-2])$" title="Month (01-12)" id="month" name="month" placeholder="MM" required> 
+          <span class="error-text two"> </span>
+        </div>
+
+        <div class="item">
+          <label for="year" class="form-label">YEAR</label>
+           <input type="text"class="form-element" pattern="^\d{4}$" title="Year (e.g., 2023)"id="year" name="year" placeholder="YYYY" required > 
+           <span class="error-text three"> </span>
+        </div>
+    </div>
+
+    </form>
+   
+
+     <div class="submit-container">
+      <span class="line"> </span>
+      <button type="button" id="submit-Btn"></button>
+     </div>
+
+    <div class="display-container">
+    <h2><span class="display years">- -</span>years</h2>
+    <h2><span class="display months">- -</span>months</h2>
+    <h2><span class="display days">- -</span>days</h2>
+     </div>
+ </section>
+
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://twitter.com/Coded_by_MJ">MJ</a>.
+  </div>
+
+ 
+
+  <script src="javascript.js"></script>
+</body>
+</html>
