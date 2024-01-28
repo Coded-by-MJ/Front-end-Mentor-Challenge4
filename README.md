@@ -4,15 +4,16 @@ This is my solution to the [Age Calculator challenge on Frontend Mentor](https:/
 
 
 ### Overview
-![Screenshot](Sign-up.png)
-![Screenshot](success.png)
+![Mobile](mobile.png)
+![Success](success.png)
+![Error](error.png)
 
 
 
 ### Links
 
-- Solution URL: [Click to view Solution](https://www.frontendmentor.io/solutions/responsive-newsletter-signup-validated-with-js-w5d93GCzeD)
-- Live Site URL: [Click to view Live Site](https://coded-by-mj.github.io/Front-end-Mentor-Challenge3/)
+- Solution URL: [Click to view Solution](https://www.frontendmentor.io/solutions/age-calculator-using-js-2K5ZwtZL7c)
+- Live Site URL: [Click to view Live Site](https://coded-by-mj.github.io/Front-end-Mentor-Challenge4/)
 
 
 
@@ -24,7 +25,7 @@ This is my solution to the [Age Calculator challenge on Frontend Mentor](https:/
 - Flexbox
 - CSS Grid
 - JavaScript
-- Mobile-first workflow
+
 
 
 
